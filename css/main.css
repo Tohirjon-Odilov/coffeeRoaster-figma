@@ -671,8 +671,9 @@ template {
 }
 
 .footer {
-  background: #2C343E;
+  margin-bottom: 88px;
   padding: 47px 85px;
+  background: #2C343E;
   display: flex;
   align-items: center;
   justify-content: space-between;

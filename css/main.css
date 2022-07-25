@@ -670,12 +670,9 @@ template {
   color: #333D4B;
 }
 
-.site-footer {
-  background: #2C343E;
-}
-
 .footer {
-  padding: 47px 0;
+  background: #2C343E;
+  padding: 47px 85px;
   display: flex;
   align-items: center;
   justify-content: space-between;

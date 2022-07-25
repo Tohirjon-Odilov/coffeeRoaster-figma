@@ -1,9 +1,8 @@
-.site-footer {
- background: #2C343E;
-}
+.site-footer {}
 
 .footer {
- padding: 47px 0;
+ background: #2C343E;
+ padding: 47px 85px;
  @include flex(space-between);
 
  .footer-logo {

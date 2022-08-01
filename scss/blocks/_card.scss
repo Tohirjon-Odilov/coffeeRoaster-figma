@@ -1,4 +1,4 @@
-.card {}
+// .card {}
 
 .card__list {
     margin: 0;
@@ -11,6 +11,7 @@
 }
 
 .card__item {
+    max-width: 255px;
     height: 399px;
 }
 
@@ -42,4 +43,19 @@
     line-height: 26px;
     text-align: center;
     color: #333D4B;
+}
+
+@media only screen and (max-width: 1150px) {
+   .card__list{
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   
+}
+
+@media only screen and (max-width:500px) {
+   
 }

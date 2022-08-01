@@ -5,10 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/main.css" />
-		<link rel="shortcut icon" href="./imgs/site-logo.svg" type="image/x-icon" />
+		<link rel="shortcut icon" href="./imgs/favicon.svg" type="image/x-icon" />
 		<title>Coffee Roaster</title>
 	</head>
 	<body>
+		<!-- HEADER -->
+
 		<header class="site-header">
 			<div class="container">
 				<div class="header">
@@ -24,9 +26,28 @@
 						<li class="header-item"><a href="#link">ABOUT US</a></li>
 						<li class="header-item"><a href="#link">Create your plan</a></li>
 					</ul>
+					<img
+						id="burger"
+						class="burger"
+						src="./imgs/humburger.svg"
+						width="16"
+						height="15"
+						alt="Burder icon"
+					/>
+					<!-- <img
+						id="closeMenu"
+						class="closeMenu"
+						src="./imgs/black-close-menu.svg"
+						width="14"
+						height="13"
+						alt="close menu x-icon"
+					/> -->
 				</div>
 			</div>
 		</header>
+
+		<!-- MAIN -->
+
 		<main class="site-main">
 			<section class="hero-section">
 				<div class="container">
@@ -107,7 +128,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="ansver-section">
+			<!-- <section class="ansver-section">
 				<div class="container">
 					<div class="ansver">
 						<div class="ansver__title">
@@ -166,8 +187,8 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section class="work-section">
+			</section> -->
+			<!-- <section class="work-section">
 				<div class="container">
 					<div class="work">
 						<h2 class="work__title">How it works</h2>
@@ -205,10 +226,12 @@
 						<a href="#link" class="btn btn-green">Create your plan</a>
 					</div>
 				</div>
-			</section>
+			</section> -->
 		</main>
 
-		<footer class="site-footer">
+		<!-- FOOTER -->
+
+		<!-- <footer class="site-footer">
 			<div class="container">
 				<div class="footer">
 					<div class="footer__left">
@@ -291,6 +314,16 @@
 					</ul>
 				</div>
 			</div>
-		</footer>
+		</footer> -->
+
+		<!-- <script>
+			let navbarMenu = document.querySelector("#navbar__menu");
+			let burger = document.querySelector("#burger");
+			let closeMenu = document.querySelector("#close-menu");
+
+			burger.addEventListener("click", function () {
+				navbarMenu.classList.add("active");
+			});
+		</script> -->
 	</body>
 </html>

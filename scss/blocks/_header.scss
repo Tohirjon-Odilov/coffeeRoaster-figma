@@ -18,7 +18,36 @@
     color: #83888F;
     text-decoration: none;
     transition: all .3s;
+
     &:hover {
         color: #333D4B;
+    }
+}
+
+.burger,
+.closeMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 40px 0 53px;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    // .header {
+    // }
+
+    .header-list {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .burger {
+        display: block;
     }
 }
